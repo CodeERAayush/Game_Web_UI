@@ -1,0 +1,231 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Klee+One:wght@600&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Klee+One:wght@600&family=Rubik+80s+Fade&family=Rubik+Storm&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(0, 0, 0, 0.338); */
+    /* backdrop-filter: blur(1px); */
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position: fixed;
+    z-index: 100;
+    left:0;
+    top: 0;
+    width: 100%;
+    /* height: 10rem; */
+    transition: all ease 600ms;
+    box-shadow: 0 0 10px 2px var(--secondary-color);
+
+}
+.mainIcon{
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    align-self: center;
+}
+.navBar{
+    display: flex;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.navBar li{
+text-decoration: none;
+color: rgb(255, 255, 255);
+margin-left: 20px;
+list-style-type: none;
+font-family: 'Rubik 80s Fade', cursive;
+cursor: pointer;
+text-shadow: 10px 0 8px rgb(73, 145, 67);
+}
+.Title{
+    display: flex;
+    color: white;
+}
+.mainTitle{
+    margin-left: 5px;
+    font-size: 20px;
+    align-self: center;
+    font-family: 'Chakra Petch', sans-serif;
+    text-shadow: 10px 0 8px rgb(73, 145, 67);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* banner section */
+
+.banner{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/226/703/780/video-games-god-of-war-kratos-god-of-war-iii-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 98vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.banner_fadeBottom{
+    height: 120px;
+    background:linear-gradient(180deg,
+        transparent,
+        rgba(0, 0, 0, 0.61),
+        #0b0a0a
+    ); 
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* left component*/
+
+
+.left_component{
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 60px;
+display: flex;
+flex-direction: column;
+}
+#title{
+    /* font-family: 'Rubik 80s Fade', cursive; */
+    font-family: 'Rubik Vinyl', cursive;
+    color: aliceblue;
+    font-size: 70px;
+    margin: 2px;
+}
+span{
+    
+       /* font-family: 'Josefin Sans', sans-serif; */
+       font-family: 'Rubik Storm', cursive;
+       color:white;
+       font-weight: 100;
+       text-shadow: 10px 0 8px rgb(73, 145, 67);
+}
+
+.left_component h2{
+    color: white;
+    padding: 0;
+    margin: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#preview_btn{
+    background-color: #46434376;
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border: none;
+    width: 200px;
+    color: white;
+    align-self: flex-start;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* right component */
+
+.right_component{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: end;
+    background-color: transparent;
+    margin-right: 60px;
+    /* backdrop-filter: blur(6px); 
+    -webkit-backdrop-filter:blur(6px) ; */
+    border-radius: 14px;
+    margin-top: 100px;
+    overflow-y:unset;
+    /* box-shadow:0 0 8px #0b0a0a; */
+
+}
+.card{
+    margin-top: 20px;
+    width: min-content;
+    position: relative;
+    /* background-color: #0b0a0a56; */
+    /* background: url("https://grainy-gradients.vercel.app/noise.svg"); */
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter:blur(5px) ;
+    border: 0.5px solid black;
+    /* box-shadow: 0px 0px 2px#0b0a0a; */
+    border-radius: 5px;
+}
+#headline{
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 2px;
+    font-weight: bold;
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+p{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 8px aquamarine;
+    align-self: center;
+    margin: 0px;
+    padding: 2px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#image{
+    border-radius: 5px;
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 6.3rem;
+    width: auto;
+}
+.card_content{
+    padding: 0;
+    margin-left: 10px;
+}
+#card_button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+
+}
+@media only screen and (max-width:700px){
+    .banner{
+        background-image: url("https://w0.peakpx.com/wallpaper/447/403/HD-wallpaper-kratos-god-of-war-god-of-war-4-gow-thumbnail.jpg");
+    }
+    .left_component{
+        margin-left: 2px;
+        margin-top: 50px;
+    }
+    .left_component p{
+        display: none;
+    }
+}

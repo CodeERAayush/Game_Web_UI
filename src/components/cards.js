@@ -1,6 +1,7 @@
 import "./comp.css"
 export const Cards=()=>{
     return(
+        <div className="card__holder">
         <div className="card">
         <img id="image" src="./images/poster.jpg" alt="game"/>
         <div className="card_content">
@@ -8,8 +9,9 @@ export const Cards=()=>{
             <p>Launching This New Year!</p>
             <p>Ready to be amazed with Graphics!</p>
         </div>
-        
+         
         </div>
-        
+        <div className="card_button">Preview ></div>
+        </div>
     )
 }

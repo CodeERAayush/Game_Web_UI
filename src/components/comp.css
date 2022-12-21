@@ -151,7 +151,6 @@ span{
 
 
 
-
 /* right component */
 
 .right_component{
@@ -164,20 +163,20 @@ span{
     /* backdrop-filter: blur(6px); 
     -webkit-backdrop-filter:blur(6px) ; */
     border-radius: 14px;
-    margin-top: 100px;
+    margin-top: 80px;
     overflow-y:unset;
     /* box-shadow:0 0 8px #0b0a0a; */
 
 }
 .card{
-    margin-top: 20px;
     width: min-content;
-    position: relative;
+    
+    background-color: #46434376;
     /* background-color: #0b0a0a56; */
     /* background: url("https://grainy-gradients.vercel.app/noise.svg"); */
     backdrop-filter: blur(5px); 
     -webkit-backdrop-filter:blur(5px) ;
-    border: 0.5px solid black;
+    /* border: 0.5px solid black; */
     /* box-shadow: 0px 0px 2px#0b0a0a; */
     border-radius: 5px;
 }
@@ -210,13 +209,25 @@ p{
     padding: 0;
     margin-left: 10px;
 }
-#card_button{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    
-
+.card_button{
+    position: relative;
+    color: aliceblue;
+    bottom: 10px;
+   left: 100px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #46434376;
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
+
+
+
 @media only screen and (max-width:700px){
     .banner{
         background-image: url("https://w0.peakpx.com/wallpaper/447/403/HD-wallpaper-kratos-god-of-war-god-of-war-4-gow-thumbnail.jpg");
